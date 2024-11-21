@@ -91,7 +91,7 @@ def samadengan():
         e.insert(0,a_awal * int(angka_akhir))
     elif mtk == "sisabagi":
         e.insert(0,a_awal % int(angka_akhir))
-    
+
 
 tombol  = Button(root,text="1",padx = 30,bg="white",fg="black", pady = 20,command=lambda:cetak(1))
 tombol2  = Button(root,text="2",padx = 30,bg="white",fg="black", pady = 20,command=lambda:cetak(2))
