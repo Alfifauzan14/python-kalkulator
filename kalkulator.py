@@ -3,7 +3,7 @@ import tkinter.font as font
 import math
 
 root = Tk()
-root.title("belajar frame")
+root.title("CALCULATOR")
 root["bg"] = "white"
 root.geometry("310x400")
 
